@@ -4,7 +4,7 @@ import json
 import time
 
 bmkgUrl = 'https://data.bmkg.go.id/autogempa.xml'
-apiGateway = 'https://hpxzjjmleg.execute-api.us-east-1.amazonaws.com/dev/updatedata'
+apiGateway = 'AWS_API_URL'
 tempJam = ''
 
 def dataGempa(url): 
