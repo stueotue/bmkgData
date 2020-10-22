@@ -2,9 +2,10 @@ import requests
 import xmltodict
 import json
 import time
+import sys
 
 bmkgUrl = 'https://data.bmkg.go.id/autogempa.xml'
-apiGateway = 'AWS_API_URL'
+apiGateway = sys.argv[1]
 tempJam = ''
 
 def dataGempa(url): 
